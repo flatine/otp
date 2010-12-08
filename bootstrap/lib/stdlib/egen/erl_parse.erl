@@ -559,7 +559,7 @@ get_attribute(L, Name) ->
 get_attributes(L) ->
     erl_scan:attributes_info(L).
 
--file("/usr/local/otp/releases/sles10_64_R14B_patched/lib/parsetools-2.0.4/include/yeccpre.hrl", 0).
+-file("/usr/local/lib/erlang/lib/parsetools-2.0.4/include/yeccpre.hrl", 0).
 %%
 %% %CopyrightBegin%
 %%
@@ -742,7 +742,7 @@ yecctoken2string(Other) ->
 
 
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 742).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 745).
 
 yeccpars2(0=S, Cat, Ss, Stack, T, Ts, Tzr) ->
  yeccpars2_0(S, Cat, Ss, Stack, T, Ts, Tzr);
@@ -8215,7 +8215,7 @@ yeccpars2_39_(__Stack0) ->
    [ __1 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8198).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8218).
 -compile({inline,yeccpars2_46_/1}).
 -file("erl_parse.yrl", 435).
 yeccpars2_46_(__Stack0) ->
@@ -8224,7 +8224,7 @@ yeccpars2_46_(__Stack0) ->
    { [ ] , ? line ( __1 ) }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8207).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8227).
 -compile({inline,yeccpars2_70_/1}).
 -file("erl_parse.yrl", 326).
 yeccpars2_70_(__Stack0) ->
@@ -8233,7 +8233,7 @@ yeccpars2_70_(__Stack0) ->
    { tuple , ? line ( __1 ) , [ ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8216).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8236).
 -compile({inline,yeccpars2_71_/1}).
 -file("erl_parse.yrl", 327).
 yeccpars2_71_(__Stack0) ->
@@ -8242,7 +8242,7 @@ yeccpars2_71_(__Stack0) ->
    { tuple , ? line ( __1 ) , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8225).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8245).
 -compile({inline,yeccpars2_73_/1}).
 -file("erl_parse.yrl", 409).
 yeccpars2_73_(__Stack0) ->
@@ -8274,7 +8274,7 @@ yeccpars2_81_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8257).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8277).
 -compile({inline,yeccpars2_82_/1}).
 -file("erl_parse.yrl", 407).
 yeccpars2_82_(__Stack0) ->
@@ -8307,7 +8307,7 @@ yeccpars2_88_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8290).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8310).
 -compile({inline,yeccpars2_89_/1}).
 -file("erl_parse.yrl", 382).
 yeccpars2_89_(__Stack0) ->
@@ -8346,7 +8346,7 @@ yeccpars2_98_(__Stack0) ->
    [ ]
   end | __Stack0].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8329).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8349).
 -compile({inline,yeccpars2_100_/1}).
 -file("erl_parse.yrl", 428).
 yeccpars2_100_(__Stack0) ->
@@ -8363,7 +8363,7 @@ yeccpars2_102_(__Stack0) ->
    [ ]
   end | __Stack0].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8346).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8366).
 -compile({inline,yeccpars2_104_/1}).
 -file("erl_parse.yrl", 425).
 yeccpars2_104_(__Stack0) ->
@@ -8373,7 +8373,7 @@ yeccpars2_104_(__Stack0) ->
     { clause , L , [ { tuple , L , [ __1 , __3 , { var , L , '_' } ] } ] , __4 , __5 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8356).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8376).
 -compile({inline,yeccpars2_106_/1}).
 -file("erl_parse.yrl", 422).
 yeccpars2_106_(__Stack0) ->
@@ -8415,7 +8415,7 @@ yeccpars2_114_(__Stack0) ->
    { [ ] , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8398).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8418).
 -compile({inline,yeccpars2_115_/1}).
 -file("erl_parse.yrl", 453).
 yeccpars2_115_(__Stack0) ->
@@ -8424,7 +8424,7 @@ yeccpars2_115_(__Stack0) ->
    { string , ? line ( __1 ) , element ( 3 , __1 ) ++ element ( 3 , __2 ) }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8407).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8427).
 -compile({inline,yeccpars2_120_/1}).
 -file("erl_parse.yrl", 387).
 yeccpars2_120_(__Stack0) ->
@@ -8433,7 +8433,7 @@ yeccpars2_120_(__Stack0) ->
    { 'receive' , ? line ( __1 ) , [ ] , __3 , __4 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8416).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8436).
 -compile({inline,yeccpars2_122_/1}).
 -file("erl_parse.yrl", 385).
 yeccpars2_122_(__Stack0) ->
@@ -8442,7 +8442,7 @@ yeccpars2_122_(__Stack0) ->
    { 'receive' , ? line ( __1 ) , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8425).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8445).
 -compile({inline,yeccpars2_125_/1}).
 -file("erl_parse.yrl", 389).
 yeccpars2_125_(__Stack0) ->
@@ -8459,7 +8459,7 @@ yeccpars2_131_(__Stack0) ->
    [ __1 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8442).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8462).
 -compile({inline,yeccpars2_135_/1}).
 -file("erl_parse.yrl", 324).
 yeccpars2_135_(__Stack0) ->
@@ -8468,7 +8468,7 @@ yeccpars2_135_(__Stack0) ->
    { b_generate , ? line ( __2 ) , __1 , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8451).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8471).
 -compile({inline,yeccpars2_137_/1}).
 -file("erl_parse.yrl", 323).
 yeccpars2_137_(__Stack0) ->
@@ -8485,7 +8485,7 @@ yeccpars2_139_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8468).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8488).
 -compile({inline,yeccpars2_140_/1}).
 -file("erl_parse.yrl", 316).
 yeccpars2_140_(__Stack0) ->
@@ -8494,7 +8494,7 @@ yeccpars2_140_(__Stack0) ->
    { lc , ? line ( __1 ) , __2 , __4 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8477).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8497).
 -compile({inline,yeccpars2_141_/1}).
 -file("erl_parse.yrl", 432).
 yeccpars2_141_(__Stack0) ->
@@ -8511,7 +8511,7 @@ yeccpars2_143_(__Stack0) ->
    [ __1 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8494).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8514).
 -compile({inline,yeccpars2_145_/1}).
 -file("erl_parse.yrl", 372).
 yeccpars2_145_(__Stack0) ->
@@ -8528,7 +8528,7 @@ yeccpars2_147_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8511).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8531).
 -compile({inline,yeccpars2_148_/1}).
 -file("erl_parse.yrl", 366).
 yeccpars2_148_(__Stack0) ->
@@ -8552,7 +8552,7 @@ yeccpars2_151_(__Stack0) ->
    [ ]
   end | __Stack0].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8535).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8555).
 -compile({inline,yeccpars2_157_/1}).
 -file("erl_parse.yrl", 395).
 yeccpars2_157_(__Stack0) ->
@@ -8561,7 +8561,7 @@ yeccpars2_157_(__Stack0) ->
    { 'fun' , ? line ( __1 ) , { function , element ( 3 , __2 ) , element ( 3 , __4 ) , element ( 3 , __6 ) } }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8544).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8564).
 -compile({inline,yeccpars2_158_/1}).
 -file("erl_parse.yrl", 393).
 yeccpars2_158_(__Stack0) ->
@@ -8587,7 +8587,7 @@ yeccpars2_162_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8570).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8590).
 -compile({inline,yeccpars2_163_/1}).
 -file("erl_parse.yrl", 397).
 yeccpars2_163_(__Stack0) ->
@@ -8596,7 +8596,7 @@ yeccpars2_163_(__Stack0) ->
    build_fun ( ? line ( __1 ) , __2 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8579).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8599).
 -compile({inline,yeccpars2_164_/1}).
 -file("erl_parse.yrl", 215).
 yeccpars2_164_(__Stack0) ->
@@ -8605,7 +8605,7 @@ yeccpars2_164_(__Stack0) ->
    { 'catch' , ? line ( __1 ) , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8588).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8608).
 -compile({inline,yeccpars2_168_/1}).
 -file("erl_parse.yrl", 376).
 yeccpars2_168_(__Stack0) ->
@@ -8614,7 +8614,7 @@ yeccpars2_168_(__Stack0) ->
    { 'case' , ? line ( __1 ) , __2 , __4 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8597).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8617).
 -compile({inline,yeccpars2_170_/1}).
 -file("erl_parse.yrl", 271).
 yeccpars2_170_(__Stack0) ->
@@ -8623,7 +8623,7 @@ yeccpars2_170_(__Stack0) ->
    { block , ? line ( __1 ) , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8606).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8626).
 -compile({inline,yeccpars2_172_/1}).
 -file("erl_parse.yrl", 280).
 yeccpars2_172_(__Stack0) ->
@@ -8632,7 +8632,7 @@ yeccpars2_172_(__Stack0) ->
    { nil , ? line ( __1 ) }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8615).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8635).
 -compile({inline,yeccpars2_173_/1}).
 -file("erl_parse.yrl", 281).
 yeccpars2_173_(__Stack0) ->
@@ -8641,7 +8641,7 @@ yeccpars2_173_(__Stack0) ->
    { cons , ? line ( __1 ) , __2 , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8624).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8644).
 -compile({inline,yeccpars2_175_/1}).
 -file("erl_parse.yrl", 283).
 yeccpars2_175_(__Stack0) ->
@@ -8658,7 +8658,7 @@ yeccpars2_178_(__Stack0) ->
    __2
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8641).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8661).
 -compile({inline,yeccpars2_180_/1}).
 -file("erl_parse.yrl", 285).
 yeccpars2_180_(__Stack0) ->
@@ -8682,7 +8682,7 @@ yeccpars2_186_(__Stack0) ->
    [ __1 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8665).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8685).
 -compile({inline,yeccpars2_187_/1}).
 -file("erl_parse.yrl", 288).
 yeccpars2_187_(__Stack0) ->
@@ -8699,7 +8699,7 @@ yeccpars2_189_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8682).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8702).
 -compile({inline,yeccpars2_190_/1}).
 -file("erl_parse.yrl", 289).
 yeccpars2_190_(__Stack0) ->
@@ -8708,7 +8708,7 @@ yeccpars2_190_(__Stack0) ->
    { bin , ? line ( __1 ) , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8691).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8711).
 -compile({inline,yeccpars2_193_/1}).
 -file("erl_parse.yrl", 318).
 yeccpars2_193_(__Stack0) ->
@@ -8732,7 +8732,7 @@ yeccpars2_197_(__Stack0) ->
    __2
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8715).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8735).
 -compile({inline,yeccpars2_198_/1}).
 -file("erl_parse.yrl", 295).
 yeccpars2_198_(__Stack0) ->
@@ -8781,7 +8781,7 @@ yeccpars2_206_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8764).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8784).
 -compile({inline,yeccpars2_207_/1}).
 -file("erl_parse.yrl", 297).
 yeccpars2_207_(__Stack0) ->
@@ -8790,7 +8790,7 @@ yeccpars2_207_(__Stack0) ->
    ? mkop1 ( __1 , __2 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8773).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8793).
 -compile({inline,yeccpars2_208_/1}).
 -file("erl_parse.yrl", 257).
 yeccpars2_208_(__Stack0) ->
@@ -8807,7 +8807,7 @@ yeccpars2_210_(__Stack0) ->
    __2
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8790).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8810).
 -compile({inline,yeccpars2_212_/1}).
 -file("erl_parse.yrl", 341).
 yeccpars2_212_(__Stack0) ->
@@ -8832,7 +8832,7 @@ yeccpars2_219_(__Stack0) ->
    [ ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8815).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8835).
 -compile({inline,yeccpars2_221_/1}).
 -file("erl_parse.yrl", 357).
 yeccpars2_221_(__Stack0) ->
@@ -8841,7 +8841,7 @@ yeccpars2_221_(__Stack0) ->
    { record_field , ? line ( __1 ) , __1 , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8824).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8844).
 -compile({inline,yeccpars2_223_/1}).
 -file("erl_parse.yrl", 358).
 yeccpars2_223_(__Stack0) ->
@@ -8866,7 +8866,7 @@ yeccpars2_226_(__Stack0) ->
    __2
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8849).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8869).
 -compile({inline,yeccpars2_227_/1}).
 -file("erl_parse.yrl", 339).
 yeccpars2_227_(__Stack0) ->
@@ -8883,7 +8883,7 @@ yeccpars2_229_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8866).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8886).
 -compile({inline,yeccpars2_232_/1}).
 -file("erl_parse.yrl", 218).
 yeccpars2_232_(__Stack0) ->
@@ -8892,7 +8892,7 @@ yeccpars2_232_(__Stack0) ->
    { match , ? line ( __2 ) , __1 , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8875).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8895).
 -compile({inline,yeccpars2_233_/1}).
 -file("erl_parse.yrl", 219).
 yeccpars2_233_(__Stack0) ->
@@ -8901,7 +8901,7 @@ yeccpars2_233_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8884).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8904).
 -compile({inline,yeccpars2_235_/1}).
 -file("erl_parse.yrl", 222).
 yeccpars2_235_(__Stack0) ->
@@ -8910,7 +8910,7 @@ yeccpars2_235_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8893).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8913).
 -compile({inline,yeccpars2_237_/1}).
 -file("erl_parse.yrl", 225).
 yeccpars2_237_(__Stack0) ->
@@ -8919,7 +8919,7 @@ yeccpars2_237_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8902).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8922).
 -compile({inline,yeccpars2_247_/1}).
 -file("erl_parse.yrl", 229).
 yeccpars2_247_(__Stack0) ->
@@ -8928,7 +8928,7 @@ yeccpars2_247_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8911).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8931).
 -compile({inline,yeccpars2_260_/1}).
 -file("erl_parse.yrl", 237).
 yeccpars2_260_(__Stack0) ->
@@ -8937,7 +8937,7 @@ yeccpars2_260_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8920).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8940).
 -compile({inline,yeccpars2_268_/1}).
 -file("erl_parse.yrl", 241).
 yeccpars2_268_(__Stack0) ->
@@ -8946,7 +8946,7 @@ yeccpars2_268_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8929).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8949).
 -compile({inline,yeccpars2_269_/1}).
 -file("erl_parse.yrl", 233).
 yeccpars2_269_(__Stack0) ->
@@ -8955,7 +8955,7 @@ yeccpars2_269_(__Stack0) ->
    ? mkop2 ( __1 , __2 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8938).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8958).
 -compile({inline,yeccpars2_270_/1}).
 -file("erl_parse.yrl", 363).
 yeccpars2_270_(__Stack0) ->
@@ -8964,7 +8964,7 @@ yeccpars2_270_(__Stack0) ->
    { call , ? line ( __1 ) , __1 , element ( 1 , __2 ) }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8947).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8967).
 -compile({inline,yeccpars2_273_/1}).
 -file("erl_parse.yrl", 253).
 yeccpars2_273_(__Stack0) ->
@@ -8973,7 +8973,7 @@ yeccpars2_273_(__Stack0) ->
    { remote , ? line ( __2 ) , __1 , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8956).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8976).
 -compile({inline,yeccpars2_274_/1}).
 -file("erl_parse.yrl", 259).
 yeccpars2_274_(__Stack0) ->
@@ -8982,7 +8982,7 @@ yeccpars2_274_(__Stack0) ->
    { record_field , ? line ( __2 ) , __1 , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8965).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8985).
 -compile({inline,yeccpars2_277_/1}).
 -file("erl_parse.yrl", 345).
 yeccpars2_277_(__Stack0) ->
@@ -8991,7 +8991,7 @@ yeccpars2_277_(__Stack0) ->
    { record , ? line ( __2 ) , __1 , element ( 3 , __3 ) , __4 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8974).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8994).
 -compile({inline,yeccpars2_279_/1}).
 -file("erl_parse.yrl", 343).
 yeccpars2_279_(__Stack0) ->
@@ -9000,7 +9000,7 @@ yeccpars2_279_(__Stack0) ->
    { record_field , ? line ( __2 ) , __1 , element ( 3 , __3 ) , __5 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8983).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9003).
 -compile({inline,yeccpars2_280_/1}).
 -file("erl_parse.yrl", 436).
 yeccpars2_280_(__Stack0) ->
@@ -9009,7 +9009,7 @@ yeccpars2_280_(__Stack0) ->
    { __2 , ? line ( __1 ) }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 8992).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9012).
 -compile({inline,yeccpars2_281_/1}).
 -file("erl_parse.yrl", 245).
 yeccpars2_281_(__Stack0) ->
@@ -9018,7 +9018,7 @@ yeccpars2_281_(__Stack0) ->
    ? mkop1 ( __1 , __2 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9001).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9021).
 -compile({inline,yeccpars2_284_/1}).
 -file("erl_parse.yrl", 349).
 yeccpars2_284_(__Stack0) ->
@@ -9027,7 +9027,7 @@ yeccpars2_284_(__Stack0) ->
    { record , ? line ( __2 ) , __1 , element ( 3 , __3 ) , __4 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9010).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9030).
 -compile({inline,yeccpars2_286_/1}).
 -file("erl_parse.yrl", 347).
 yeccpars2_286_(__Stack0) ->
@@ -9036,7 +9036,7 @@ yeccpars2_286_(__Stack0) ->
    { record_field , ? line ( __2 ) , __1 , element ( 3 , __3 ) , __5 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9019).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9039).
 -compile({inline,yeccpars2_288_/1}).
 -file("erl_parse.yrl", 494).
 yeccpars2_288_(__Stack0) ->
@@ -9045,7 +9045,7 @@ yeccpars2_288_(__Stack0) ->
    { clause , ? line ( __1 ) , element ( 3 , __1 ) , __2 , __3 , __4 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9028).
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9048).
 -compile({inline,yeccpars2_289_/1}).
 -file("erl_parse.yrl", 204).
 yeccpars2_289_(__Stack0) ->
@@ -9110,46 +9110,46 @@ yeccpars2_319_(__Stack0) ->
    [ __1 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9093).
--compile({inline,yeccpars2_332_/1}).
--file("erl_parse.yrl", 152).
-yeccpars2_332_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9113).
+-compile({inline,yeccpars2_333_/1}).
+-file("erl_parse.yrl", 153).
+yeccpars2_333_(__Stack0) ->
  [__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , tuple , [ ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9102).
--compile({inline,yeccpars2_333_/1}).
--file("erl_parse.yrl", 153).
-yeccpars2_333_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9122).
+-compile({inline,yeccpars2_334_/1}).
+-file("erl_parse.yrl", 154).
+yeccpars2_334_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , tuple , __2 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9111).
--compile({inline,yeccpars2_335_/1}).
--file("erl_parse.yrl", 116).
-yeccpars2_335_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9131).
+-compile({inline,yeccpars2_336_/1}).
+-file("erl_parse.yrl", 117).
+yeccpars2_336_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { ann_type , ? line ( __1 ) , [ __1 , __3 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9120).
--compile({inline,yeccpars2_341_/1}).
--file("erl_parse.yrl", 159).
-yeccpars2_341_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9140).
+-compile({inline,yeccpars2_342_/1}).
+-file("erl_parse.yrl", 160).
+yeccpars2_342_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , 'fun' , [ ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9129).
--compile({inline,yeccpars2_345_/1}).
--file("erl_parse.yrl", 163).
-yeccpars2_345_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9149).
+-compile({inline,yeccpars2_346_/1}).
+-file("erl_parse.yrl", 164).
+yeccpars2_346_(__Stack0) ->
  [__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , 'fun' ,
@@ -9164,20 +9164,20 @@ yeccpars2_347_(__Stack0) ->
    __3
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9147).
--compile({inline,yeccpars2_352_/1}).
--file("erl_parse.yrl", 144).
-yeccpars2_352_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9167).
+-compile({inline,yeccpars2_353_/1}).
+-file("erl_parse.yrl", 145).
+yeccpars2_353_(__Stack0) ->
  [__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { remote_type , ? line ( __1 ) ,
     [ __1 , __3 , [ ] ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9157).
--compile({inline,yeccpars2_353_/1}).
--file("erl_parse.yrl", 146).
-yeccpars2_353_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9177).
+-compile({inline,yeccpars2_354_/1}).
+-file("erl_parse.yrl", 147).
+yeccpars2_354_(__Stack0) ->
  [__6,__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { remote_type , ? line ( __1 ) ,
@@ -9192,48 +9192,48 @@ yeccpars2_356_(__Stack0) ->
    build_gen_type ( __1 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9175).
--compile({inline,yeccpars2_356_/1}).
--file("erl_parse.yrl", 142).
-yeccpars2_356_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9195).
+-compile({inline,yeccpars2_357_/1}).
+-file("erl_parse.yrl", 143).
+yeccpars2_357_(__Stack0) ->
  [__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) ,
     normalise ( __1 ) , __3 }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9185).
--compile({inline,yeccpars2_358_/1}).
--file("erl_parse.yrl", 148).
-yeccpars2_358_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9205).
+-compile({inline,yeccpars2_359_/1}).
+-file("erl_parse.yrl", 149).
+yeccpars2_359_(__Stack0) ->
  [__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , nil , [ ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9194).
--compile({inline,yeccpars2_360_/1}).
--file("erl_parse.yrl", 149).
-yeccpars2_360_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9214).
+-compile({inline,yeccpars2_361_/1}).
+-file("erl_parse.yrl", 150).
+yeccpars2_361_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , list , [ __2 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9203).
--compile({inline,yeccpars2_362_/1}).
--file("erl_parse.yrl", 150).
-yeccpars2_362_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9223).
+-compile({inline,yeccpars2_363_/1}).
+-file("erl_parse.yrl", 151).
+yeccpars2_363_(__Stack0) ->
  [__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) ,
     nonempty_list , [ __2 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9213).
--compile({inline,yeccpars2_365_/1}).
--file("erl_parse.yrl", 179).
-yeccpars2_365_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9233).
+-compile({inline,yeccpars2_366_/1}).
+-file("erl_parse.yrl", 180).
+yeccpars2_366_(__Stack0) ->
  [__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , binary ,
@@ -9257,49 +9257,49 @@ yeccpars2_372_(__Stack0) ->
    build_bin_type ( [ __1 , __3 ] , __5 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9240).
--compile({inline,yeccpars2_373_/1}).
--file("erl_parse.yrl", 182).
-yeccpars2_373_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9260).
+-compile({inline,yeccpars2_374_/1}).
+-file("erl_parse.yrl", 183).
+yeccpars2_374_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , binary ,
     [ __2 , abstract ( 0 , ? line ( __1 ) ) ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9250).
--compile({inline,yeccpars2_378_/1}).
--file("erl_parse.yrl", 187).
-yeccpars2_378_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9270).
+-compile({inline,yeccpars2_379_/1}).
+-file("erl_parse.yrl", 188).
+yeccpars2_379_(__Stack0) ->
  [__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , binary , [ __2 , __4 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9259).
--compile({inline,yeccpars2_379_/1}).
--file("erl_parse.yrl", 184).
-yeccpars2_379_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9279).
+-compile({inline,yeccpars2_380_/1}).
+-file("erl_parse.yrl", 185).
+yeccpars2_380_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , binary ,
     [ abstract ( 0 , ? line ( __1 ) ) , __2 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9269).
--compile({inline,yeccpars2_381_/1}).
--file("erl_parse.yrl", 167).
-yeccpars2_381_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9289).
+-compile({inline,yeccpars2_382_/1}).
+-file("erl_parse.yrl", 168).
+yeccpars2_382_(__Stack0) ->
  [__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , 'fun' ,
     [ { type , ? line ( __1 ) , product , [ ] } , __4 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9279).
--compile({inline,yeccpars2_383_/1}).
--file("erl_parse.yrl", 138).
-yeccpars2_383_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9299).
+-compile({inline,yeccpars2_384_/1}).
+-file("erl_parse.yrl", 139).
+yeccpars2_384_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { paren_type , ? line ( __2 ) , [ __2 ] }
@@ -9313,19 +9313,19 @@ yeccpars2_388_(__Stack0) ->
    [ __1 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9296).
--compile({inline,yeccpars2_389_/1}).
--file("erl_parse.yrl", 154).
-yeccpars2_389_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9316).
+-compile({inline,yeccpars2_390_/1}).
+-file("erl_parse.yrl", 155).
+yeccpars2_390_(__Stack0) ->
  [__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , record , [ __2 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9305).
--compile({inline,yeccpars2_391_/1}).
--file("erl_parse.yrl", 176).
-yeccpars2_391_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9325).
+-compile({inline,yeccpars2_392_/1}).
+-file("erl_parse.yrl", 177).
+yeccpars2_392_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , field_type ,
@@ -9340,20 +9340,20 @@ yeccpars2_394_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9323).
--compile({inline,yeccpars2_394_/1}).
--file("erl_parse.yrl", 155).
-yeccpars2_394_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9343).
+-compile({inline,yeccpars2_395_/1}).
+-file("erl_parse.yrl", 156).
+yeccpars2_395_(__Stack0) ->
  [__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) ,
     record , [ __2 | __4 ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9333).
--compile({inline,yeccpars2_395_/1}).
--file("erl_parse.yrl", 135).
-yeccpars2_395_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9353).
+-compile({inline,yeccpars2_396_/1}).
+-file("erl_parse.yrl", 136).
+yeccpars2_396_(__Stack0) ->
  [__2,__1 | __Stack] = __Stack0,
  [begin
    ? mkop1 ( __1 , skip_paren ( __2 ) )
@@ -9367,10 +9367,10 @@ yeccpars2_398_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9350).
--compile({inline,yeccpars2_400_/1}).
--file("erl_parse.yrl", 170).
-yeccpars2_400_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9370).
+-compile({inline,yeccpars2_401_/1}).
+-file("erl_parse.yrl", 171).
+yeccpars2_401_(__Stack0) ->
  [__5,__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , 'fun' ,
@@ -9385,10 +9385,10 @@ yeccpars2_403_(__Stack0) ->
    lift_unions ( __1 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9368).
--compile({inline,yeccpars2_405_/1}).
--file("erl_parse.yrl", 122).
-yeccpars2_405_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9388).
+-compile({inline,yeccpars2_406_/1}).
+-file("erl_parse.yrl", 123).
+yeccpars2_406_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , range ,
@@ -9396,30 +9396,30 @@ yeccpars2_405_(__Stack0) ->
     skip_paren ( __3 ) ] }
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9379).
--compile({inline,yeccpars2_406_/1}).
--file("erl_parse.yrl", 127).
-yeccpars2_406_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9399).
+-compile({inline,yeccpars2_407_/1}).
+-file("erl_parse.yrl", 128).
+yeccpars2_407_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    ? mkop2 ( skip_paren ( __1 ) ,
     __2 , skip_paren ( __3 ) )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9389).
--compile({inline,yeccpars2_408_/1}).
--file("erl_parse.yrl", 131).
-yeccpars2_408_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9409).
+-compile({inline,yeccpars2_409_/1}).
+-file("erl_parse.yrl", 132).
+yeccpars2_409_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    ? mkop2 ( skip_paren ( __1 ) ,
     __2 , skip_paren ( __3 ) )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9399).
--compile({inline,yeccpars2_410_/1}).
--file("erl_parse.yrl", 103).
-yeccpars2_410_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9419).
+-compile({inline,yeccpars2_411_/1}).
+-file("erl_parse.yrl", 104).
+yeccpars2_411_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , bounded_fun ,
@@ -9442,10 +9442,10 @@ yeccpars2_416_(__Stack0) ->
    build_def ( __1 , __3 )
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9425).
--compile({inline,yeccpars2_418_/1}).
--file("erl_parse.yrl", 109).
-yeccpars2_418_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9445).
+-compile({inline,yeccpars2_419_/1}).
+-file("erl_parse.yrl", 110).
+yeccpars2_419_(__Stack0) ->
  [__4,__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { type , ? line ( __1 ) , constraint ,
@@ -9580,10 +9580,10 @@ yeccpars2_448_(__Stack0) ->
    [ __1 | __3 ]
   end | __Stack].
 
--file("/ldisk/pan/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9555).
--compile({inline,yeccpars2_447_/1}).
--file("erl_parse.yrl", 90).
-yeccpars2_447_(__Stack0) ->
+-file("/ldisk/burbas/git/otp/bootstrap/lib/stdlib/egen/erl_parse.erl", 9583).
+-compile({inline,yeccpars2_449_/1}).
+-file("erl_parse.yrl", 91).
+yeccpars2_449_(__Stack0) ->
  [__3,__2,__1 | __Stack] = __Stack0,
  [begin
    { tuple , ? line ( __1 ) , __2 }
